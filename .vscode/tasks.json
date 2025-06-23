@@ -1,0 +1,117 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build OOP - Fun Example",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "example.cpp",
+        "-o",
+        "example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/OOP"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build OOP - Real World",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "real_world_example.cpp",
+        "-o",
+        "real_world_example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/OOP"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Functional - Fun Example",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "example.cpp",
+        "-o",
+        "example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Functional"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Functional - Real World",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "real_world_example.cpp",
+        "-o",
+        "real_world_example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Functional"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Event Driven - Fun Example",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "example.cpp",
+        "-o",
+        "example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Event_Driven"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Event Driven - Real World",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "real_world_example.cpp",
+        "-o",
+        "real_world_example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Event_Driven"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Procedural - Fun Example",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "example.cpp",
+        "-o",
+        "example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Procedural"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build Procedural - Real World",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "real_world_example.cpp",
+        "-o",
+        "real_world_example.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/Procedural"
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

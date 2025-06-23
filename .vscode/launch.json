@@ -1,0 +1,109 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run OOP - Fun Example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/OOP/example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/OOP",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build OOP - Fun Example"
+    },
+    {
+      "name": "Run OOP - Real World",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/OOP/real_world_example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/OOP",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build OOP - Real World"
+    },
+    {
+      "name": "Run Functional - Fun Example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Functional/example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Functional",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Functional - Fun Example"
+    },
+    {
+      "name": "Run Functional - Real World",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Functional/real_world_example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Functional",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Functional - Real World"
+    },
+    {
+      "name": "Run Event Driven - Fun Example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Event_Driven/example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Event_Driven",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Event Driven - Fun Example"
+    },
+    {
+      "name": "Run Event Driven - Real World",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Event_Driven/real_world_example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Event_Driven",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Event Driven - Real World"
+    },
+    {
+      "name": "Run Procedural - Fun Example",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Procedural/example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Procedural",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Procedural - Fun Example"
+    },
+    {
+      "name": "Run Procedural - Real World",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Procedural/real_world_example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Procedural",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "build Procedural - Real World"
+    }
+  ]
+}
